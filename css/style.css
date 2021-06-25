@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(92, 90, 90);
+}
+
+header{
+    background-image:url('../images/blue_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 150px;
+    padding-top: 10px;
+    min-height: 810px;
+}
+.b1{
+    margin-right: 100px;
+    border-radius: 40px;
+    padding:5px 20px;
+    background-image: url('../images/login_button_bg.png');
+}
+.b1:hover{
+    opacity: 0.8;
+}
+nav a{
+    color: rgb(92, 90, 90);
+}
+.nav-item:hover{
+    text-decoration:underline;  
+}
+nav a:hover{
+    color: blueviolet;
+}
+.sec1{
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.sec1 h1{
+    font-weight: bold;
+}
+.sec1 span{
+    color: blueviolet;
+}
+.sec2{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    right: 50px;
+}
+.img2{
+    position: absolute;
+    z-index: 1;
+}
+.img3{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    z-index: 2;
+}
+.img4{
+    position: absolute;
+    top: 650px;
+    right: 450px;
+}
+.allsection{
+    text-align: center;
+}
+.section1{
+    position: absolute;
+    right: 20px;
+    margin-top: 100px;
+}
+.section2{
+    position: absolute;
+    margin-top:170px;
+    left: 200px;
+}
+.section3{
+    position: absolute;
+    margin:270px 0px 0px 550px;
+}
+.section4{
+    position: absolute;
+    margin:600px 0px 0px 900px;
+}
+.section5{
+    position: absolute;
+    margin-top: 650px;
+    left: 120px;
+}
+.sectiontext{
+    position: absolute;
+    margin-top: 100px;
+    left: 150px;
+    z-index: 1;
+  
+}
+.sectiontext h6,h2{
+    color: white;
+    text-align: left;
+}
+.section6{
+    position: absolute;
+    margin-top: 1000px;
+    left: 180px;
+    text-align: center;
+}
+.iconsec{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+}
+footer{
+    position: relative;
+    top: 1500px;
+    height: 560px;
+    width: 100%;
+    overflow:hidden;
+}
+.footimage{
+    position: absolute;
+   
+}
+.store{
+    position: absolute;
+    left: 200px;
+    margin-top: 400px;
+    z-index:1;
+    
+}
+.store button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    padding:5px 20px;
+    border: none;
+    margin-left: 10px;
+    background-image: url('../images/login_button_bg.png');
+}
+.social{
+    position: absolute;
+    top: 480px;
+    left: 200px;
+   
+  
+}
+.social a{
+    padding-left: 15px;
+}
+.navfooter{
+    position: absolute;
+    margin-top: 510px;
+    left: 185px;
+       
+}
+.navfooter a{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.footrimage{
+    position: absolute;
+    top: 130px;
+    left: 750px;
+}
